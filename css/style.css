@@ -5,6 +5,12 @@ body {
 
 header {
     font-family: verdana;
+    background-color: rgb(247, 230, 255);
+}
+
+body {
+    background-color: rgb(247, 230, 255);
+    color:rgb(105,0,153);
 }
 
 button {
@@ -12,29 +18,35 @@ button {
     font-family: verdana;
     border: none;
     text-align: center;
-    padding: 10px 30px;
     color: rgb(247, 230, 255);
     text-decoration: none;
     font-size: 16px;
+    border-style: solid;
+    border-color: rgb(105,0,153);
 }
     button a {
-        color: white;
+        color: rgb(247, 230, 255);
         text-decoration: none;
+        padding: 10px 30px;
     }
     button a:hover {
         text-decoration: none;
-        color:  rgb(105,0,153);
+        color: rgb(105,0,153);
+        padding: 10px 30px;
     }
     button a:visited {
         text-decoration: none;
-        color: white;
+        color: rgb(247, 230, 255);
+        padding: 10px 30px;
     }
     button a:active {
         text-decoration: none;
-        color: white;
+        color: rgb(105,0,153);
+        padding: 10px 30px;
     }
 button:hover {
     background-color: rgb(247, 230, 255);
+    color: rgb(105,0,153);
 }
     
 .dropbtn {
@@ -43,10 +55,16 @@ button:hover {
     border: none;
     text-align: center;
     padding: 10px 30px;
-    color: white;
+    color: rgb(247, 230, 255);
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
+    border-color: rgb(105,0,153);
+    border-style: solid;
+}
+.dropbtn:hover {
+    background-color: rgb(247, 230, 255);
+    color: rgb(247, 230, 255);
 }
 
 .dropdown {
