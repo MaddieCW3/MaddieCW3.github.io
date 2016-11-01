@@ -34,30 +34,57 @@
 		    </div>
 </header>
 <body>
-    <h1>EarSketch Songs</h1>
-    <br>
-    <h3>Song 1</h3>
-    <audio src="/my_portfolio/EarSketch_Songs/song1_MWales.mp3" controls>
-      <p>Song 1</p>
-    </audio>
-    <br>
-    <h3>Song 2</h3>
-    <audio src="/my_portfolio/EarSketch_Songs/song2_MWales.mp3" controls>
-      <p>Song 2</p>
-    </audio>
-    <br>
-    <h3>Song 3</h3>
-    <audio src="/my_portfolio/EarSketch_Songs/song3_MWales.mp3" controls>
-      <p>Song 3</p>
-    </audio>
-    <br>
-    <h3>Song 4</h3>
-    <audio src="/my_portfolio/EarSketch_Songs/song4_MWales.mp3" controls>
-      <p>Song 4</p>
-    </audio>
-    <br>
-    <h3>Song 5</h3>
-    <audio src="/my_portfolio/EarSketch_Songs/song5_MWales.mp3" controls>
-      <p>Song 5</p> 
-    </audio>
+    <div class="container">
+    <div class="column center">
+        <h1>HTML5 Audio Player</h1>
+        <h6>w/ responsive playlist</h6>
+    </div>
+    <div class="column add-bottom">
+        <div id="mainwrap">
+            <div id="nowPlay">
+                <span class="left" id="npAction">Paused...</span>
+                <span class="right" id="npTitle"></span>
+            </div>
+            <div id="audiowrap">
+                <div id="audio0">
+                    <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
+                </div>
+                <div id="tracks">
+                    <a id="btnPrev">&laquo;</a>
+                    <a id="btnNext">&raquo;</a>
+                </div>
+            </div>
+            <div id="plwrap">
+                <ul id="plList">
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">01.</div>
+                            <div class="plTitle">Song 1</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">02.</div>
+                            <div class="plTitle">Song 2</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">03.</div>
+                            <div class="plTitle">Song 3</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">04.</div>
+                            <div class="plTitle">Song 4</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">05.</div>
+                            <div class="plTitle">Song 5</div>
+                        </div>
+                    </li>
+                    <li>
 </body>
