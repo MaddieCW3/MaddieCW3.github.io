@@ -9,6 +9,10 @@ body {
     font-family: verdana;
 }
 
+a {
+   color: rgb(105,0,153);
+}
+
 button {
     background-color: rgb(105,0,153); /*dark purple*/
     font-family: verdana;
@@ -107,8 +111,5 @@ button:active {
 button:visited {
     background-color: rgb(247, 230, 255);
     color: rgb(105,0,153);
-}
-a {
-    color: rgb(247, 230, 255);
 }
 
