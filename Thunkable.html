@@ -1,7 +1,7 @@
 <doctype HTML>
 <head>
 	<meta charset="utf-8">
-	<title>RSA</title>
+	<title>Thunkable</title>
 	<link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <header>
@@ -37,3 +37,44 @@
 		    </div>
 </header>
 <body>
+	<br><br>
+	<h1>Thunkable Android App: Test of the Morons</h1>
+	<br>
+	<h2>Write Up</h2>
+	<p>Our app was coded with Thunkable, also known as MIT App Creator.<br>
+	The purpose of our app is to have the player go through a series of "tests" to determine if they are a moron or not, while generating revenue through displaying advertisements.<br>
+	The screenshots show all of our screens, which include the levels, the losing screen, the winning screen, and the branding screen.<br>
+	</p>
+	<br>
+	<h2>Screenshots</h2>
+	<br>
+	<div class="slideshow" style="max-width:500px">
+  		<img class="photos" src="/images/app screenshots/begin_screen.png" style="width:100%">
+  		<img class="photos" src="/images/app screenshots/screen1.png" style="width:100%">
+  		<img class="photos" src="/images/app screenshots/buttons_screen.png" style="width:100%">
+  		<img class="photos" src="/images/app screenshots/bomb1.png" style="width:100%">
+  		<img class="photos" src="/images/app screenshots/bomb2.png" style="width:100%">
+  		<img class="photos" src="/images/app screenshots/dial.png" style="width:100%">
+  		<img class="photos" src="/images/app screenshots/locations.png" style="width:100%">
+  		<img class="photos" src="/images/app screenshots/stormtroopers.png" style="width:100%">
+  		<img class="photos" src="/images/app screenshots/donuts.png" style="width:100%">
+  		<img class="photos" src="/images/app screenshots/you_lose.png" style="width:100%">
+  		<img class="photos" src="/images/app screenshots/you_win.png" style="width:100%">
+	</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("photos");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
