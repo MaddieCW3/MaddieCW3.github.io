@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+	font-family: Sans-Serif;
+	color: darkblue;
+}
+h2 {
+	font-family: Sans-Serif;
+}
+h3 {
+	font-family: Sans-Serif;
+}
+h4 {
+	font-family: Serif;
+	color: darkblue
+}
+ul {
+	font-family: Serif;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
