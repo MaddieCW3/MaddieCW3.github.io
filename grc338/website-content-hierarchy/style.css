@@ -4,4 +4,9 @@ img {
     width: 100%; 
 }
 
-/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
+.header-menu {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-template-rows: repeat(3,auto);
+	grid-gap: 1em
+}
